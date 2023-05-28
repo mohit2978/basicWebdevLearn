@@ -1,0 +1,16 @@
+body{
+    background-color: antiquewhite;
+  }
+  h1{
+    text-decoration: red dotted underline ;
+    color:teal;
+  }
+  main>h1{
+    padding: 2%;
+    text-decoration: green solid line-through ;
+    color:purple;
+  }
+  p{
+    color: red;
+    text-decoration: blueviolet dotted overline;
+  }
