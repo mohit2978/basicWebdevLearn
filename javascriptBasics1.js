@@ -87,5 +87,25 @@ let coll1={
     }
 }
 console.log(coll1);
-//get a key value of a object by dot 
+//get a key value of a object by dot or use square brackets
 console.log(coll1.arr1);
+console.log(coll1["id"]);
+//[ ] ka use vha kr skte jha pe space ho key mai jaise key hai 
+//"first name" ab yha pe quotes lgana key mai as 2 word now 
+//to get this we use [ ] .coll1[first name]
+
+//delete or update or add in an object
+console.log("------------------------------------");
+console.log("deleting");
+delete(coll1.coll2);
+console.log(coll1);
+//to add
+console.log("------------------------------------");
+console.log("addition");
+coll1.school="D.A.V";
+console.log(coll1);
+//to update
+console.log("------------------------------------");
+console.log("update");
+coll1.school="MNNIT";
+console.log(coll1);
